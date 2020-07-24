@@ -185,6 +185,12 @@ body{
 
 }
 
+@media screen and (max-width:768px) {
+    .container-fluid .navbar-toggler{
+        height: 20px!important;
+    }
+}
+
 .navbar {
     padding: .8rem;
 }
@@ -232,12 +238,11 @@ body{
     color: #FFFFFF;
 }
 
-.caption-type h3, span{
-    padding-top: 225px;
+.caption-type h3, .word{
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 44px;
     color: #FFFFFF;
 }
 .caption-type p{
