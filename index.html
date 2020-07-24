@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
     <!--Lightbox CDN-->
     <link rel="stylesheet" href="css/lightbox.min.css">
     <!--AOS CDN-->
@@ -42,12 +40,12 @@
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand pl-4" href="#" data-aos="zoom-out" data-aos-duration="3000"
-                    data-aos-delay="3000"><img src="images/Betty Butter.svg"></a>
+                    data-aos-delay="1500"><img src="images/Betty Butter.svg"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive" data-aos="fade-down"
-                    data-aos-duration="3000" data-aos-delay="3000">
+                    data-aos-duration="3000" data-aos-delay="1500">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active`">
                             <a class="nav-link" href="#header">Home</a>
@@ -78,6 +76,8 @@
                         <div class="caption-type typecon">
                             <div id="types">
                                 <h3 class="text-center capt type"><span>Make Your Face Sparkle</span></h3>
+                                <h3 class="text-center capt type"><span>Look Good</span></h3>
+                                <h3 class="text-center capt type"><span>We can help you with that</span></h3>
                             </div>
                             <span id="typed"></span><br>
                             <a href="#contact" class="btn btn-default mt-3" type="button">Book Now</a>
@@ -98,7 +98,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 py-5 my-5" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="800">
-                        <img src="images/BIO.svg" class="img-fluid">
+                        <img src="images/BIO.png" class="img-fluid">
                     </div>
                     <div class="About col-md-6 py-3 my-5 pl-5" data-aos="zoom-in" data-aos-duration="3000"
                         data-aos-delay="800">
@@ -391,7 +391,8 @@
         <script>
             var typed = new Typed('#typed', {
                 stringsElement: '#types',
-                typeSpeed: 100
+                typeSpeed: 100,
+                loop:true
             });
         </script>
         <script>
