@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--Font Awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
     <!--Lightbox CDN-->
     <link rel="stylesheet" href="css/lightbox.min.css">
     <!--AOS CDN-->
@@ -37,7 +39,7 @@
     <!---Navigation--->
     <header class="header">
         <!---Navigation--->
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed navigation">
             <div class="container-fluid">
                 <a class="navbar-brand pl-4" href="#" data-aos="zoom-out" data-aos-duration="3000"
                     data-aos-delay="1500"><img src="images/Betty Butter.svg"></a>
@@ -77,7 +79,7 @@
                             <div id="types">
                                 <h3 class="text-center capt type"><span class="word">Make Your Face Sparkle</span></h3>
                                 <h3 class="text-center capt type"><span class="word">Look Good</span></h3>
-                                <h3 class="text-center capt type"><span class="word">We can help you with that</span></h3>
+                                <h3 class="text-center capt type"><span class="word">I can help you with that</span></h3>
                             </div>
                             <span id="typed"></span><br>
                             <a href="#contact" class="btn btn-default mt-3" type="button">Book Now</a>
@@ -379,12 +381,20 @@
             </div>
         </footer>
         <!-- Footer -->
+        <!--Boootstrap Js-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!--lightbox js-->
         <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+        <!--Main JS-->
         <script src="js/main.js"></script>
+        <!--Typed Js-->
         <script src="js/typed.min.js"></script>
+        <!--AOS js-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             var typed = new Typed('#typed', {
