@@ -278,6 +278,10 @@ color: #FFFFFF;
     text-transform: capitalize;
     color: #7A7A7A;
 }
+#hero img{
+    width: 100%;
+    height: 100%;
+}
 
 .About p{
     font-family: 'Playfair Display', sans-serif;
