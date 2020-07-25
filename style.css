@@ -186,9 +186,6 @@ body{
 }
 
 @media screen and (max-width:768px) {
-    .container-fluid .navbar-toggler{
-        height: 20px!important;
-    }
 }
 
 .navbar {
