@@ -219,7 +219,7 @@ body{
 .btn{
     background: #2B7A78;
     border-radius: 5px;
-    padding: 15px 65px;
+    padding: 15px 40px;
     text-align: center !important;
 }
 
@@ -672,7 +672,7 @@ input:focus {
     .btn{
         background: #2B7A78;
         border-radius: 0px;
-        padding: 15px 65px;
+        padding: 15px 45px;
         text-align: center !important;
     }
     .details {
@@ -884,7 +884,7 @@ input:focus {
     .btn{
         background: #2B7A78;
         border-radius: 5px;
-        padding: 15px 45px;
+        padding: 15px 35px;
         text-align: center !important;
     }
     .img1 {
