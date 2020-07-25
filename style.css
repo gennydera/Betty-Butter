@@ -552,6 +552,9 @@ input:focus {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
      .navbar-brand {
         font-family: Playfair Display, sans-serif;
         font-style: normal;
@@ -695,6 +698,9 @@ input:focus {
 }
 
 @media screen and (max-width: 769px) {
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
@@ -702,6 +708,9 @@ input:focus {
         font-size: 30px;
         text-transform: capitalize;
         color: #7A7A7A;
+    }
+    .navbar-nav li {
+         padding-right: 0px;
     }
     
     .About p{
@@ -807,6 +816,9 @@ input:focus {
 }
 
 @media screen and (max-width: 520px){
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
     .form-btn {
         padding: .3rem 1.4rem;
         margin-left: 4rem;
@@ -840,6 +852,9 @@ input:focus {
     }
 }
 @media screen and (min-width:300px) and (max-width: 600px){
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
@@ -992,6 +1007,9 @@ input:focus {
     }
 }
 @media screen and (max-width: 997px){
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
