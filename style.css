@@ -353,6 +353,14 @@ color: #FFFFFF;
     transform: translateY(-10px);
 }
 
+.uk-panel img{
+    width: 25rem;
+    height: 400px !important;
+    overflow: hidden;
+}
+.mobile{
+    display: none;
+}
 /* Services styling*/
 
 .img8{
@@ -562,6 +570,21 @@ input:focus {
         font-size: 25px !important;
         color: #FFFFFF;
     }
+    .uk-panel img{
+        width: 25rem;
+        height: 400px !important;
+        overflow: hidden;
+    }
+    .mobile{
+        display: contents;
+    }
+    .gal-container{
+        display: none;
+    }
+    .button{
+       display: none;
+    }
+    
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
@@ -701,6 +724,21 @@ input:focus {
     .navbar-brand{
         padding-left: 0px !important;
     }
+    .uk-panel img{
+        width: 30rem;
+        height: 30rem !important;
+        overflow: hidden;
+    }
+    .mobile{
+        display: contents;
+    }
+    .gal-container{
+        display: none;
+    }
+    .button{
+       display: none;
+    }
+    
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
@@ -819,6 +857,21 @@ input:focus {
     .navbar-brand{
         padding-left: 0px !important;
     }
+    .uk-panel img{
+        width: 30rem;
+        height: 20rem !important;
+        overflow: hidden;
+    }
+    .mobile{
+        display: contents;
+    }
+    .gal-container{
+        display: none;
+    }
+    .button{
+       display: none;
+    }
+    
     .form-btn {
         padding: .3rem 1.4rem;
         margin-left: 4rem;
@@ -855,6 +908,21 @@ input:focus {
     .navbar-brand{
         padding-left: 0px !important;
     }
+    .uk-panel img{
+        width: 30rem;
+        height: 20rem !important;
+        overflow: hidden;
+    }
+    .mobile{
+        display: contents;
+    }
+    .gal-container{
+        display: none;
+    }
+    .button{
+       display: none;
+    }
+    
     .About h2{
         font-family: Playfair Display, sans-serif;
         font-style: normal;
